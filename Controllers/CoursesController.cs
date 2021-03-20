@@ -10,7 +10,7 @@ namespace WebApp1.Controllers
         }
 
         public IActionResult Detail(string id){
-            return Content($"Sono Detail, ho ricevuto l'id {id}");
+                return Content($"Sono Detail, ho ricevuto l'id {id}");
         }
     }
 }
